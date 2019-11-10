@@ -211,7 +211,7 @@ class SpawnerFor : public Spawner
 Применение выглядит следующим образом:
 
 ```cpp
-Spawner* ghostSpawner = new SpawnerFor();
+Spawner* ghostSpawner = new SpawnerFor<Ghost>();
 ```
 
 ### Класс первого типа
